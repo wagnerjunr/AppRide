@@ -1,0 +1,39 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.close{
+    display: flex;
+    justify-content: end;
+    margin: 10px 0px 10px 0px;
+}
+.tela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius:5px;
+    height: 100%;
+}
+
+.velocimetro{
+    font-size: 120px;
+}
+
+.unidade,.button{
+    font-size: 36px;
+}
+
+.button{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.stop,.start{
+    padding: 10px;
+    font-size: 28px;
+}
+
