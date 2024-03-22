@@ -9,7 +9,7 @@ allRaces.forEach(async ([id, coords]) => {
     allRacesList.appendChild(listElements);
     
     listElements.addEventListener("click",()=>{
-        window.location.href = `../HTML/detailMap.html?id=${ride.id}`
+        window.location.href = `./detailMap.html?id=${ride.id}`
             })
 
     const ride = JSON.parse(coords);

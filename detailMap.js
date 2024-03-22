@@ -41,7 +41,7 @@ addEventListener("DOMContentLoaded",async()=>{
         detail.appendChild(divInformation);
 
         btnDelete.addEventListener("click", ()=>{
-            window.location.href = "../HTML/index.html";
+            window.location.href = "./index.html";
             clearStorage(rideId);
         })
 
